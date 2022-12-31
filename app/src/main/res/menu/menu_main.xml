@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.juansaldana.roomapp.MainActivity">
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@drawable/ic_round_delete_24"
+        android:tooltipText="Delete all songs"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom" />
+</menu>
